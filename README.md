@@ -14,6 +14,7 @@ Documenation
 The *doc* folder contains the schematic in PDF format. It also contains S11/S21 measurements
 done with a NanoVNA V2plus4 (nanovna-saver screenshot):
 
+Maximum input: 10dBm into 50 Ohm.
 Cut-off frequency (-3dB): 13.8MHz
 Roll-off: 38dB/octave
 S11 @ 10MHz: approx. -27dB
