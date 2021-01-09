@@ -14,11 +14,16 @@ Documenation
 The *doc* folder contains the schematic in PDF format. It also contains S11/S21 measurements
 done with a NanoVNA V2plus4 (nanovna-saver screenshot):
 
-Maximum input: 10dBm into 50 Ohm.
-Cut-off frequency (-3dB): 13.8MHz
-Roll-off: 38dB/octave
-S11 @ 10MHz: approx. -27dB
-S21 @ 10MHz: approx. -0.7dB
+- Maximum input: 10dBm into 50 Ohm
+- Cut-off frequency (-3dB): 13.8MHz
+- Roll-off: 38dB/octave
+- S11 @ 10MHz: -27dB
+- S21 @ 10MHz: -0.7dB
+
+Switching the ports I got also:
+- S12 @ 10MHz: > -90dB
+
+  In other words, the VNA cannot measure it. The dynamic range is not big enough.
 
 Fabrication
 -----------
