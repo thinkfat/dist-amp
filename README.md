@@ -11,7 +11,13 @@ by myself.
 Documenation
 ------------
 
-The *doc* folder contains the schematic in PDF format
+The *doc* folder contains the schematic in PDF format. It also contains S11/S21 measurements
+done with a NanoVNA V2plus4 (nanovna-saver screenshot):
+
+Cut-off frequency (-3dB): 13.8MHz
+Roll-off: 38dB/octave
+S11 @ 10MHz: approx. -27dB
+S21 @ 10MHz: approx. -0.7dB
 
 Fabrication
 -----------
@@ -35,7 +41,7 @@ must meet either footprint or electrical constraints.
 Customization
 -------------
 
-The MAx4022ESD+ has a much larger bandwidth than the 12MHz imposed by the input filter.
+The MAX4022ESD+ has a much larger bandwidth than the 12MHz imposed by the input filter.
 One obvious modification is therefore to choose a higher roll-off frequency for the
 input low-pass. Note that total bandwidth and flatness will also depend on parameters
 of other components in the signal path, notably coupling capacitors at in and output.
