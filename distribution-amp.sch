@@ -977,7 +977,7 @@ Mounting Holes
 Text Notes 1600 5200 0    50   ~ 0
 Power supply: 12V - 15V DC, 100mA min.
 Text Notes 1600 3500 0    50   ~ 0
-RF Input: 10dBm max into 50 Ohm.\nInput filter roll-off: -3dB @ 12Mhz
+RF Input: 10dBm max into 50 Ohm.\nInput filter cut-off: -3dB @ 13.8Mhz,\nroll-off: -38dB/octave
 Text Notes 9450 2650 0    50   ~ 0
 RF Output: 10dBm max. into 50 Ohm.
 $EndSCHEMATC
