@@ -21,7 +21,7 @@ done with a NanoVNA V2plus4 (nanovna-saver screenshot):
 - S21 @ 10MHz: -0.7dB
 
 Switching the ports I got also:
-- S12 @ 10MHz: > -90dB
+- S12 @ 10MHz: < -90dB
 
   In other words, the VNA cannot measure it. The dynamic range is not big enough.
 
